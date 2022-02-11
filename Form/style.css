@@ -1,0 +1,271 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #8dc6cd;
+}
+header{
+    margin: 0;
+    background-color: #fbfbfb;
+    text-align: center;
+    height: 15vh;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    box-sizing: border-box;
+    margin-top: -23px;
+}
+h1{
+    padding: 20px 0 0 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+h2{
+    padding: -5px 0 0 0;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.f-1{
+    background-color: #fff;
+    width: 45%;
+    margin: auto;
+    margin-top: 120px;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px black;
+    padding: 70px 60px;
+    color: #6b7b8a;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+.f-1 > h1,.f-1 > p{
+    color: #6b7b8a;
+    
+}
+.f-1 > h1{
+    font-size: 2.3em;
+}
+.f-1 > p{
+    font-size: 1.5em;
+    
+}
+
+.block > input{
+    border: 2px solid #8dc6cd;
+    border-radius: 4px;
+    padding: 20px 25px;
+    width: 90%;
+    font-size: 1.5em;
+    color: #6b7b8a;
+    outline: none;
+    transition: background-color 1s;
+}
+.block > input:focus{
+    background-color: #edf8f7;
+    transition: background-color 1s;
+}
+.b-5{
+    margin-top: 30px;
+    font-size: 1.2em;
+    position: relative;
+}
+.b-5  a{
+text-decoration: none;
+color: #8dc6cd;
+}
+.b-5 button{
+    padding: 25px 40px;
+    background-color: #ec4949;
+    outline: none;
+    box-sizing: border-box;
+    border:0;
+    font-size: 1.3em;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    position: absolute;
+    right: 28px;
+    bottom: -40px;
+}
+
+.mybody{
+    padding-top: 85px;
+    padding-bottom: 130px;
+    background: url("images/bg1.png") center/cover no-repeat;
+}
+.f-2{
+    width: 65%;
+    margin: auto;  
+    color: white;
+}
+.f-2 > h1{
+    font-size: 3em;
+}
+.f-2 > h1 >span{
+    color: #81d165;
+    font-weight: bold;
+}
+
+.f-2 > form{
+    border-radius: 5px;
+    box-shadow: 0 0 2px 2px rgb(189, 189, 189);
+    padding-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    margin-top:100px;
+    position: relative;
+    height: 50vh;
+}
+
+.f-2 > form > .circle{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #81d165;
+    padding:20px;
+    box-sizing: border-box;
+    position:absolute;
+    top: 25px;
+    left: -40px;
+}
+
+.header{
+    width: 80%;
+    margin: auto;
+}
+.header > h1,p{
+    color: #535455;
+    text-align: left;
+}
+hr{
+    margin-top: 60px;
+    color: #bbbbbb;
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+.buttons span{
+    display: inline-block;
+    width: 110px;
+    height: 30px;
+    border-radius: 8px;
+    margin: 15px;
+    box-sizing: border-box;
+    font-size: 2em;
+}
+
+.buttons > button{
+    margin: 15px;
+}
+
+.buttons:nth-child(1){
+    background-color: #8cd6f4;
+}
+
+.buttons:nth-child(2){
+    background-color: #8d9ec1;
+}
+
+.fab{
+    font-size: 3em;
+}
+
+.small-circle{
+    padding-inline-end: 2px;
+    width: 25px;
+    height: 25px;
+    box-sizing: border-box;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+
+.gamma{
+    height: 40em;
+    margin: auto;
+    background-color: #f8f8f8;
+    padding: 10em 0 0 0;
+}
+
+.g-1{
+    background-color: #fff;
+    width: 45%;
+    margin: auto;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px black;
+    padding: 70px 60px;
+    color: #6b7b8a;
+    font-weight: bold;
+    margin-bottom: 200px;
+}
+
+.b-3{
+    margin-top: 30px;
+    font-size: 1.2em;
+    position: relative;
+}
+.b-3  a{
+text-decoration: none;
+color: #8dc6cd;
+}
+.b-3 button{
+    padding: 25px 40px;
+    background-color: #00a0bc;
+    outline: none;
+    box-sizing: border-box;
+    border:0;
+    font-size: 1.3em;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    position: absolute;
+    right: 28px;
+    bottom: -40px;
+}
+.delta{
+    background-color: #374954;
+    height: 30em;
+    margin-top: -22px;
+    text-align: center;
+}
+.delta > h1{
+   color: #f2f3f4;
+   font-family: 'Mochiy Pop P One', sans-serif;
+}
+.block1{
+    text-align: center;
+}
+
+.block1 > input{
+    border-radius: 4px;
+    padding: 20px 25px;
+    width: 90%;
+    font-size: 1.5em;
+    color: #6b7b8a;
+    outline: none;
+    transition: background-color 1s;
+}
+.block1 > input:focus{
+    background-color: #2f3c44;
+    transition: background-color 1s;
+}
+.block1 > h2{
+    color: #f2f3f4;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+.e-1{
+    padding-top: 85px;
+    padding-bottom: 130px;
+    background: url("images/quick.png") center/cover no-repeat;
+}
+.block2 > input{
+    border-radius: 4px;
+    padding: 20px 25px;
+    width: 90%;
+    font-size: 1.5em;
+    color: #6b7b8a;
+    outline: none;
+    transition: background-color 1s;
+    margin: 20px;
+}
